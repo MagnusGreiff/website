@@ -1,0 +1,22 @@
+$accent: #F64C72;
+
+.nav {
+  height: 10vh;
+  .link-list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .link-items {
+      list-style-type: none;
+      text-align: center;
+      padding: 10px;
+      background-color: white;
+      margin: 10px;
+      border-radius: 5px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
