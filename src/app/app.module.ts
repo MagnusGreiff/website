@@ -8,9 +8,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CvComponent } from './cv/cv.component';
 import { LinksComponent } from './links/links.component';
 import { StuffComponent } from './stuff/stuff.component';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
-import routes from './router';
+import { routes } from './router';
 
 @NgModule({
   declarations: [
