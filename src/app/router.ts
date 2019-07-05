@@ -4,6 +4,7 @@ import { CvComponent } from './cv/cv.component';
 import { HomeComponent } from './home/home.component';
 import { Routes } from '@angular/router';
 
+
 const routes: Routes = [
     {
         path: 'home',
@@ -22,4 +23,5 @@ const routes: Routes = [
         component: StuffComponent
     }
 ]
-export default routes;
+
+export { routes };
