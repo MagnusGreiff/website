@@ -1,0 +1,16 @@
+.homeContent {
+  .imageContainer {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .textContainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+}

@@ -2,6 +2,7 @@ $accent: #F64C72;
 
 .nav {
   height: 10vh;
+  margin-bottom: 2%;
   .link-list {
     display: flex;
     align-items: center;
@@ -10,7 +11,7 @@ $accent: #F64C72;
       list-style-type: none;
       text-align: center;
       padding: 10px;
-      background-color: white;
+      // background-color: gray;
       margin: 10px;
       border-radius: 5px;
       a {
