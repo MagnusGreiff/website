@@ -1,6 +1,7 @@
 .homeContent {
+  margin-top: 1%; // add on every page.
   .imageContainer {
-    width: 50%;
+    width: 50vw;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -9,8 +10,17 @@
     }
   }
   .textContainer {
-    width: 50%;
+    width: 50vw;
     margin: auto;
     text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .homeContent {
+    .textContainer {
+      width: 75vw;
+    }
   }
 }
